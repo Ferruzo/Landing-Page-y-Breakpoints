@@ -30,7 +30,7 @@ ul {
 }
 
 ul a {
-    margin-right: 20px;
+    margin-right: 5px;
     color: #808080;
 }
 
@@ -76,4 +76,29 @@ input:last-child {
 footer {
     padding: 3%;
     color: #808080;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+
+header {
+    padding: 2%;
+}
+
+.logo {
+    width: 40%;
+    height: 40%;
+}
+
+ul {
+    margin: -25px 0;
+}
+
+h1 {
+    width: 100%;
+}
+
+.main-text {
+    width: 100%;
+}
+
 }
